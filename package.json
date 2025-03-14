@@ -9,19 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.2"
+    "@abstract-foundation/agw-client": "^1.4.2",
+    "@abstract-foundation/agw-react": "^1.5.4",
+    "clsx": "^2.1.1",
+    "jotai": "^2.12.2",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "sonner": "^2.0.1",
+    "tailwind-merge": "^3.0.2",
+    "thirdweb": "^5.88.7",
+    "viem": "^2.23.5",
+    "wagmi": "^2.14.12"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@eslint/eslintrc": "^3",
+    "@privy-io/cross-app-connect": "^0.1.8",
+    "@rainbow-me/rainbowkit": "^2.2.4",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "eslint": "^9",
-    "eslint-config-next": "15.2.2",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "14.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
