@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Thirdweb-AGW-Testnet
 
-## Getting Started
+<img src="./readme/demo.png" alt="./readme/demo.png">
+[Demo](https://thirdweb-agw-abstract-testnet.vercel.app)
 
-First, run the development server:
+## Overview
+
+> For verifying abstract testnet rpc is not working when using Thirdweb and AGW.
+
+## How to reproduce the error. (in local)
+
+- yarn version: v1.22.22
+- node version: v22.12.0
+
+### 1. Clone project and Install the packages
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/howdyfrom2019/thirdweb-agw-abstract-testnet.git
+cd [your-path]
+yarn install # or npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Run development server
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev # or npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Check in local
 
-## Learn More
+```bash
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+## My result
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I configure with abstract testent, but the origin url of rpc is `api.mainnet.abs.xyz`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img src="./readme/result.png" alt="./readme/result.png" />
